@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.list-item-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 90%;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #f8f8ff;
+  border-radius: 12px;
+}
+.image-item {
+  width: 40%;
+  align-self: center;
+}
+.name {
+  color: #e73959;
+  text-align: center;
+  font-size: 20px;
+}
+.sub-img-item-container {
+  display: flex;
+  margin-left: 30px;
+}
+.sub-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  align-self: center;
+}
+.sub-item {
+  color: #1e293b;
+  font-size: 16px;
+  align-self: flex-end;
+}
+@media screen and (min-width: 768px) {
+  .list-item-container {
+    width: 30%;
+  }
+}
